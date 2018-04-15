@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: cover;
+  line-height: 2rem;
+  padding: 0 /*1rem 0*/ 1.5rem;
+}
+
+.logo span {
+  vertical-align: middle;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 1rem;
+}

@@ -46,7 +46,38 @@ nav li {
 }
 
 .section-container {
+  display: flex;
+  width: cover;
   padding: 2rem 1.5rem;
+}
+
+.left-column {
+  width: 60%;
+  padding-right: 0.75rem;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+.left-column video {
+  width: 100%;
+}
+
+.right-column {
+  width: 40%;
+  padding-left: 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column img {
+  width: 35%;
+  height: auto;
+}
+
+.right-colmn .text {
+  width: 65%;
 }
 
 footer {

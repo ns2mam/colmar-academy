@@ -201,11 +201,7 @@ footer {
 }
 
 @media only screen and (max-width:640px) {
-  header span {
-    display: none;
-  }
-
-  nav {
+  .desktop {
     display: none;
   }
 
@@ -217,21 +213,8 @@ footer {
     width: 100%;
   }
 
-  .info-main.left-column {
-    display: none;
-  }
-
   .item {
     flex-direction: column;
-  }
-
-  img.desktop {
-    display: none;
-  }
-
-  .subject img,
-  .subject p {
-    display: none;
   }
 
   .subject {
@@ -254,11 +237,4 @@ footer {
     width: 100%;
   }
 
-  .thesis .right-column {
-    display: none;
-  }
-
-  .reimagine {
-    display: none;
-  }
 }

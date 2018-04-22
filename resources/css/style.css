@@ -193,3 +193,31 @@ footer {
   font-size: 0.75rem;
   padding: 1rem 1.5rem;
 }
+
+
+@media only screen and (max-width:640px) {
+  header span {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .info-main.left-column {
+    display: none;
+  }
+
+  .subject img,
+  .subject p {
+    display: none;
+  }
+
+  .thesis .right-column {
+    display: none;
+  }
+
+  .reimagine {
+    display: none;
+  }
+}

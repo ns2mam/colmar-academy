@@ -195,7 +195,7 @@ footer {
 }
 
 @media only screen and (min-width:640px) {
-  img.mobile {
+  .mobile {
     display: none;
   }
 }

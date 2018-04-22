@@ -57,6 +57,10 @@ nav li {
   padding-left: 1rem;
 }
 
+nav a {
+  color: black;
+}
+
 .section-container {
   display: flex;
   width: cover;
@@ -91,6 +95,9 @@ nav li {
   margin: 1.5rem 0;
   text-align: center;
   background-color: grey;
+}
+
+.button a {
   color: white;
 }
 
@@ -142,6 +149,10 @@ span.quote {
 .item {
   display: flex;
   align-items: center;
+}
+
+.information a {
+  color: DodgerBlue;
 }
 
 #orientation {

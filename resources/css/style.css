@@ -194,6 +194,11 @@ footer {
   padding: 1rem 1.5rem;
 }
 
+@media only screen and (min-width:640px) {
+  img.mobile {
+    display: none;
+  }
+}
 
 @media only screen and (max-width:640px) {
   header span {
@@ -204,13 +209,49 @@ footer {
     display: none;
   }
 
+  .section-container {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
   .info-main.left-column {
+    display: none;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+
+  img.desktop {
     display: none;
   }
 
   .subject img,
   .subject p {
     display: none;
+  }
+
+  .subject {
+    max-width: 100%;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .right-column {
+    width: 100%;
+  }
+
+  .right-column img {
+    width: 100%;
+  }
+
+  .right-column .text {
+    width: 100%;
   }
 
   .thesis .right-column {

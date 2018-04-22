@@ -22,13 +22,21 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 header,
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
   width: cover;
+}
+
+header {
+  height: 4rem;
   line-height: 2rem;
   padding: 0 1.5rem;
 }
@@ -60,8 +68,30 @@ nav li {
   padding-top: 2rem;
 }
 
+.info-main .section-title {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
 .banner {
   align-items: center;
+}
+
+.headline {
+  padding: 1rem 0;
+}
+
+.subheading {
+  padding: 0.5rem 0;
+}
+
+.button {
+  width: 65%;
+  padding: 0.5rem 0;
+  margin: 1.5rem 0;
+  text-align: center;
+  background-color: grey;
+  color: white;
 }
 
 .left-column {
@@ -75,6 +105,7 @@ nav li {
 
 .left-column video {
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 .right-column {
@@ -92,6 +123,12 @@ nav li {
 
 .right-column .text {
   width: 65%;
+}
+
+span.quote {
+  display: block;
+  font-size: 0.75rem;
+  padding-top: 1.5rem;
 }
 
 .subject .text {
@@ -137,6 +174,11 @@ p.description {
   padding-top: 0;
 }
 
+.reimagine h3 {
+  padding: 0.5rem 0;
+}
+
 footer {
   font-size: 0.75rem;
+  padding: 1rem 1.5rem;
 }

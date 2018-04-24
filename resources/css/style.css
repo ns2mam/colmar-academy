@@ -201,32 +201,95 @@ footer {
 }
 
 @media only screen and (max-width:640px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
   .desktop {
     display: none;
   }
 
   .section-container {
     flex-direction: column;
+    padding: 0;
+  }
+
+  .section-title {
+    padding-bottom: 1rem;
+  }
+
+  .banner img {
+    padding-bottom: 1rem;
+  }
+
+  .banner .headline,
+  .banner .subheading {
+    padding-left: 1rem;
+  }
+
+  .banner .subheading {
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .banner.right-column {
+    width: cover;
   }
 
   .button {
-    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+/*    display: flex;*/
+    width: 88%;
+/*    justify-content: center;*/
+  }
+
+  #learning {
+    padding-top: 0;
+    padding-bottom: 2rem;
   }
 
   .item {
     flex-direction: column;
+    padding: 1rem;
+  }
+
+  .item .text {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .courses {
+    padding: 0;
   }
 
   .subject {
     max-width: 100%;
+    padding: 0 1rem 0.5rem 1rem;
+  }
+
+  #marketing {
+    padding-bottom: 0;
+  }
+
+  .subject .text {
+    background-color: lightgrey;
+    padding: 1rem 1rem 1.5rem;
   }
 
   .left-column {
     width: 100%;
+    padding: 0;
+  }
+
+  .thesis video {
+    padding-bottom: 1.5rem;
   }
 
   .right-column {
     width: 100%;
+    padding: 0;
   }
 
   .right-column img {

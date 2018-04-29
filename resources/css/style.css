@@ -277,6 +277,9 @@ footer {
     padding-bottom: 1rem;
   }
 
+  header .mobile {
+    padding-top: 12px;
+  }
   .banner img {
     padding-bottom: 1rem;
   }

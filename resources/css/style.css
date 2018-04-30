@@ -85,8 +85,7 @@ h4 {
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.4;
-  padding-bottom: 3px;
-  }
+}
 
 header,
 footer {
@@ -160,7 +159,7 @@ nav a {
   padding: 0.5rem 0;
 }
 
-.button {
+button {
   width: 65%;
   padding: 0.5rem 0;
   margin: 1.5rem 0;
@@ -168,7 +167,7 @@ nav a {
   background-color: grey;
 }
 
-.button a {
+button a {
   color: white;
 }
 
@@ -388,7 +387,7 @@ footer {
     width: cover;
   }
 
-  .button {
+  button {
     margin-left: 1rem;
     margin-right: 1rem;
 /*    display: flex;*/

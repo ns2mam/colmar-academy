@@ -1,6 +1,8 @@
 html {
   font-family: "Palanquin", sans-serif;
   font-size: 16px;
+  background-color: #89D7FF;
+  color: #0D394F;
 }
 
 @font-face {
@@ -149,6 +151,7 @@ nav a {
 
 .banner {
   align-items: center;
+  background-color: #49A0CC;
 }
 
 .headline {
@@ -202,14 +205,25 @@ button a {
   width: 65%;
 }
 
+.right-column .text h3 {
+  line-height: 1.25;
+  max-width: 90%;
+}
+
+.right-column .text p {
+  line-height: 1.25;
+  max-width: 90%;
+}
+
+.right-column .text span {
+  line-height: 1.25;
+  max-width: 90%;
+}
+
 span.quote {
   display: block;
   font-size: 0.75rem;
   padding-top: 1.5rem;
-}
-
-.subject .text {
-  padding: 1rem;
 }
 
 .text p {
@@ -221,6 +235,11 @@ span.quote {
   align-items: center;
 }
 
+.information .item {
+  flex-grow: 1;
+  max-height: 33%;
+}
+
 .information a {
   color: DodgerBlue;
 }
@@ -230,6 +249,7 @@ span.quote {
 }
 
 .courses {
+  background-color: #5BC8FF;
   max-width: 100%;
   padding: 0 2rem;
 }
@@ -250,6 +270,14 @@ span.quote {
 .subject img {
   width: 100%;
   height: auto;
+  z-index: 1;
+}
+
+.subject .text {
+  padding: 1rem;
+  background-color: #89D7FF;
+  height: 10.25rem;
+  margin-top: -5px;
 }
 
 .description {
@@ -263,8 +291,20 @@ span.quote {
   padding-top: 0;
 }
 
+.thesis {
+  background-color: #4699C4;
+}
+
 .reimagine h3 {
   padding: 0.5rem 0;
+}
+
+.item:nth-of-type(1) {
+  background-color: #5BC7FF;
+}
+
+.item:last-child {
+  background-color: #4699C4;
 }
 
 footer {
@@ -426,6 +466,8 @@ footer {
   .subject .text {
     background-color: lightgrey;
     padding: 1rem 1rem 1.5rem;
+    height: auto;
+    margin-top: 0;
   }
 
   .left-column {

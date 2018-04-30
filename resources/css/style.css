@@ -273,8 +273,8 @@ footer {
   padding: 1rem 1.5rem;
 }
 
-@media only screen and (max-width:925px) and (min-width:800px){
-  h3 {
+@media only screen and (max-width:960px) and (min-width:808px){
+/*  h3 {
     font-size: 1.4rem;
   }
 
@@ -304,7 +304,7 @@ footer {
   }
 
   .info-main h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   span.quote {
@@ -315,8 +315,12 @@ footer {
     font-size: 0.87rem;
   }
 
+  .text p {
+    padding: 0.25rem 0;
+  }
+
   .item h3 {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
   }
 
   .item p {
@@ -324,21 +328,26 @@ footer {
   }
 
   .item span {
-    font-size: 0.85rem;
+    font-size: 0.87rem;
   }
 
   .subject {
     max-width: 28.5%;
   }
+*/
+
+  html {
+    font-size: 14px;
+  }
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:808px) {
   .mobile {
     display: none;
   }
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:808px) {
 
   html {
     overflow-x: hidden;

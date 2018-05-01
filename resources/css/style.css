@@ -207,7 +207,7 @@ button a {
 
 .right-column .text h3 {
   line-height: 1.25;
-  max-width: 90%;
+  max-width: 95%;
 }
 
 .right-column .text p {
@@ -233,11 +233,16 @@ span.quote {
 .item {
   display: flex;
   align-items: center;
+/*  justify-content: space-around;*/
 }
 
 .information .item {
   flex-grow: 1;
-  max-height: 33%;
+  max-height: 40%;
+}
+
+#guest-lecture {
+  flex-grow: 3;
 }
 
 .information a {
@@ -312,7 +317,7 @@ footer {
   padding: 1rem 1.5rem;
 }
 
-@media only screen and (max-width:960px) and (min-width:808px){
+@media only screen and (max-width:970px) and (min-width:780px){
 /*  h3 {
     font-size: 1.4rem;
   }
@@ -370,23 +375,25 @@ footer {
     font-size: 0.87rem;
   }
 
-  .subject {
-    max-width: 28.5%;
-  }
+
 */
 
   html {
     font-size: 14px;
   }
+
+  .subject {
+    max-width: 28.5%;
+  }
 }
 
-@media only screen and (min-width:808px) {
+@media only screen and (min-width:780px) {
   .mobile {
     display: none;
   }
 }
 
-@media only screen and (max-width:808px) {
+@media only screen and (max-width:780px) {
 
   html {
     overflow-x: hidden;

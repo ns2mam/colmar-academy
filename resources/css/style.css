@@ -1,8 +1,8 @@
 html {
   font-family: "Palanquin", sans-serif;
   font-size: 16px;
-  background-color: #89D7FF;
-  color: #0D394F;
+  background-color: #5BC8FF;
+  color: #031D44;
 }
 
 @font-face {
@@ -151,7 +151,7 @@ nav a {
 
 .banner {
   align-items: center;
-  background-color: #49A0CC;
+  background-color: #20A4F3;
 }
 
 .headline {
@@ -167,11 +167,11 @@ button {
   padding: 0.5rem 0;
   margin: 1.5rem 0;
   text-align: center;
-  background-color: grey;
+  background-color: #EBDC66;
 }
 
 button a {
-  color: white;
+  color: #031D44;
 }
 
 .left-column {
@@ -250,6 +250,10 @@ span.quote {
   max-height: 40%;
 }
 
+.information {
+  background-color: #FAFF81;
+}
+
 .information a {
   color: DodgerBlue;
 }
@@ -284,9 +288,18 @@ span.quote {
 
 .subject .text {
   padding: 1rem;
-  background-color: #89D7FF;
   height: 10.25rem;
   margin-top: -5px;
+}
+
+.subject:nth-of-type(2n) {
+  background: rgba(250, 255, 129, 0.0);
+  background-color: #FAFF81;
+}
+
+.subject:nth-of-type(2n+1) {
+  background: rgba(32, 164, 243, 0.0);
+  background-color: #20A4F3;
 }
 
 .description {
@@ -301,24 +314,36 @@ span.quote {
 }
 
 .thesis {
-  background-color: #4699C4;
+  background-color: #FFC53A;
 }
 
 .reimagine h3 {
   padding: 0.5rem 0;
 }
 
-#orientation, #now-and-then {
-  background-color: #5BC7FF;
+#orientation {
+  background-color: #FFC53A;
 }
 
-#campus, #fisma {
-  background-color: #89D7FF;
+#now-and-then {
+  background-color: #20A4F3;
+}
+
+#fisma {
+  background-color: #FAFF81;
+}
+
+#campus {
+  background-color: #5BC8FF;
 }
 
 .item:nth-of-type(3) {
-  background-color: #4699C4;
+  background-color: #FFC53A;
 }
+
+/*#computer-art .text, #data .text, #marketing .text {
+  background-color: #FAFF81;
+}*/
 
 footer {
   font-size: 0.75rem;

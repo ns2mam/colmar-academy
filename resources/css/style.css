@@ -308,11 +308,11 @@ span.quote {
   padding: 0.5rem 0;
 }
 
-.item:nth-of-type(1) {
+#orientation, #now-and-then {
   background-color: #5BC7FF;
 }
 
-.item:nth-of-type(2) {
+#campus, #fisma {
   background-color: #89D7FF;
 }
 
@@ -428,14 +428,13 @@ footer {
     padding-bottom: 1rem;
   }
 
-  .banner .headline,
-  .banner .subheading {
-    padding-left: 1rem;
+  .headline {
+    padding: 1rem 0 1rem 1rem;
+    margin-left: -3px;
   }
-
-  .banner .subheading {
-    padding-top: 1rem;
-    padding-bottom: 0;
+  .subheading {
+    padding: 1rem 1rem 0;
+    margin-left: -2px;
   }
 
   .banner.right-column {
@@ -443,11 +442,10 @@ footer {
   }
 
   button {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 1.5rem 1rem 2rem;
 /*    display: flex;*/
-    width: 88%;
-/*    justify-content: center;*/
+    width: 90%;
+    align-self: center;
   }
 
   #learning {
@@ -457,11 +455,18 @@ footer {
 
   .item {
     flex-direction: column;
-    padding: 1rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    padding: 1.5rem 1rem;
   }
 
   .item .text {
-    padding-left: 1rem;
+    align-self: flex-start;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  #guest-lecture {
     padding-bottom: 1rem;
   }
 
@@ -505,6 +510,9 @@ footer {
 
   .img-container {
     width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    overflow: visible;
   }
 
   .right-column .text {

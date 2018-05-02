@@ -307,7 +307,6 @@ span.quote {
 .subject {
   max-width: 29.25%;
   padding: 1rem;
-  display: table;
 }
 
 #software .text, #design .text, #business .text {
@@ -478,11 +477,12 @@ footer {
   }
 
   .courses {
-    display: block;
     padding: 0;
   }
 
   #learning {
+    flex-wrap: nowrap;
+    flex-direction: column;
     padding-top: 0;
     padding-bottom: 2rem;
   }
@@ -493,7 +493,6 @@ footer {
   }
 
   .subject .text {
-    background-color: lightgrey;
     padding: 1rem 1rem 1.5rem;
     height: auto;
     margin-top: 0;

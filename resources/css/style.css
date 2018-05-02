@@ -64,7 +64,7 @@ html {
   color: #031D44;
 }
 
-main {
+main, footer {
   line-height: 1.4;
 }
 
@@ -403,6 +403,19 @@ footer {
     display: none;
   }
 
+  header .mobile {
+    padding-top: 12px;
+  }
+
+  .section-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .section-title {
+    padding-bottom: 1rem;
+  }
+
   .left-column {
     width: 100%;
     padding: 0;
@@ -417,17 +430,8 @@ footer {
     width: 100%;
   }
 
-  .section-container {
-    flex-direction: column;
-    padding: 0;
-  }
-
-  .section-title {
-    padding-bottom: 1rem;
-  }
-
-  header .mobile {
-    padding-top: 12px;
+  .text p {
+    padding: 0.5rem 2rem 0.5rem 0;
   }
 
   .banner.right-column {
@@ -439,7 +443,7 @@ footer {
   }
 
   .headline {
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem;
     margin-left: -3px;
   }
 
@@ -462,7 +466,7 @@ footer {
 
   .item .text {
     align-self: flex-start;
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem;
   }
 
   .img-container {

@@ -245,7 +245,7 @@ button a:hover {
 
 span.quote {
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   padding-top: 1.5rem;
 }
 
@@ -365,7 +365,7 @@ span.quote {
 }
 
 footer {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   padding: 1rem 1.5rem;
 }
 

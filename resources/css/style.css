@@ -126,7 +126,7 @@ h4 {
   flex-direction: column;
   width: 40%;
   padding-left: 0.75rem;
-  }
+}
 
 header,
 footer {
@@ -457,8 +457,6 @@ footer {
 
   .item {
     flex-direction: column;
-    flex-grow: 0;
-    flex-shrink: 0;
     height: 100%;
     padding: 1.5rem 1rem;
   }
@@ -480,6 +478,7 @@ footer {
   }
 
   .courses {
+    display: block;
     padding: 0;
   }
 

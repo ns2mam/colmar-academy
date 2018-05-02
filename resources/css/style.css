@@ -170,10 +170,14 @@ button {
   background-color: #EBDC66;
   border-style: none;
   border-radius: 8px;
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 button a {
   color: #031D44;
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 button:hover {
